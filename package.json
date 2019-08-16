@@ -11,6 +11,7 @@
     "express": "^4.17.1",
     "node-fetch": "^2.6.0",
     "pusher": "^2.2.2",
+    "pusher-js": "^5.0.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1"
