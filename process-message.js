@@ -2,7 +2,7 @@ const Dialogflow = require('dialogflow');
     const Pusher = require('pusher');
 
     // You can find your project ID in your Dialogflow agent settings
-    const projectId = '<your project id>'; //https://dialogflow.com/docs/agents#settings
+    const projectId = 'apa-citation-bot-wcnoxf'; //https://dialogflow.com/docs/agents#settings
     const sessionId = '123456';
     const languageCode = 'en-US';
 
