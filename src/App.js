@@ -12,8 +12,8 @@ import React, { Component } from 'react';
       }
 
       componentDidMount() {
-        const pusher = new Pusher('<your app key>', {
-          cluster: '<your app cluster>',
+        const pusher = new Pusher(`${process.env.PUSHER_APP_KEY}`, {
+          cluster: `${process.env.PUSHER_APP_CLUSTER}`,
           encrypted: true,
         });
 
@@ -46,7 +46,7 @@ import React, { Component } from 'react';
           conversation: [...this.state.conversation, msg],
         });
 
-        fetch('http://localhost:5000/chat', {
+        fetch('http://localhost:4242/chat', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
