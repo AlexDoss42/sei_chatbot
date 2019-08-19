@@ -3,8 +3,8 @@ require('dotenv').config({ path: 'variables.env' });
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-var processMessage = require('./process-message');
 var Pusher = require('pusher');
+var processMessage = require('./process-message');
 
 const { PUSHER_APP_ID, PUSHER_APP_KEY, PUSHER_APP_SECRET, PUSHER_APP_CLUSTER, PORT } = process.env
 

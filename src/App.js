@@ -72,7 +72,7 @@ import React, { Component } from 'react';
 
         return (
           <div>
-            <h1>React Chatbot</h1>
+            <h1>APA Citation Chatbot</h1>
             <div className="chat-window">
               <div className="conversation-view">{chat}</div>
               <div className="message-box">
